@@ -9,8 +9,10 @@ package classes;
  *
  * @author Fooji
  */
-public class Toping extends Menu {
-    
-    public Toping(String nama_kuah) {}
-    
+public class Ramen extends Menu {
+   public Ramen(String nama_ramen, double harga){
+        setNamaMenu(nama_ramen);
+        setHarga(harga);
+        setKategori("Ramen");
+    }
 }
